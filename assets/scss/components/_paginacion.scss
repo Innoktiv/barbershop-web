@@ -1,0 +1,26 @@
+.pages {
+  background-color: $platinum;
+  & a {
+    color: $raisin-black;
+  }
+}
+
+.page-item.active .page-link {
+  color: $white;
+  background-color: $nickel;
+  border-color: $nickel;
+  
+  @media only screen and (max-width: 600px) {
+      background-color: $eerie-black;
+  }
+}
+
+.page-item{
+  & .anterior {
+    border-radius: 25px 0% 0% 25px !important;
+  }
+  
+  & .siguiente {
+    border-radius: 0% 25px 25px 0% !important;
+  }
+}

@@ -1,0 +1,8 @@
+
+git init
+git add .
+git commit -m 'comentario'
+$ sass --watch assets/scss/main.scss assets/css/style.css //inicia sass para que sea escuchado por style.css
+
+
+finaliza sass "ctrl + c"

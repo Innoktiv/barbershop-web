@@ -1,0 +1,27 @@
+.contact {
+  & img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  &-name {
+    font-size: $x-large;
+    font-weight: $black;
+    font-family: $playfair;
+    font-style: $italic;
+    margin-top: 30px;
+  }
+
+  &-instagram {
+    color: $ruddy-pink;
+    margin-top: 10px;
+  }
+  &-website {
+    color: $ruddy-pink;
+    margin-top: 10px;
+  }
+  &-content {
+    font-size: $small;
+    color: $nickel;
+  }
+}
+
