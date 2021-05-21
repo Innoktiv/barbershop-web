@@ -9937,7 +9937,7 @@ body {
 .header {
   height: 100vh;
   width: auto;
-  background: url("/assets/img/postimage.jpg");
+  background: url("assets/img/postimage.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
