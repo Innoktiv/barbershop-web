@@ -9937,7 +9937,7 @@ body {
 .header {
   height: 100vh;
   width: auto;
-  background: url("/assets/img/post_image.jpg");
+  background: url("/innoktive/barbershop-web/blob/v2/assets/img/post_image.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9988,6 +9988,10 @@ body {
   color: #E56353 !important;
 }
 
+.article {
+  color: #6C6E70;
+}
+
 .article-date {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -9999,6 +10003,17 @@ br {
 
 p {
   line-height: 2.5;
+}
+
+.article-date {
+  color: #6C6E70;
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
+}
+.article-text {
+  color: #6C6E70;
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
 }
 
 footer {
@@ -10020,7 +10035,7 @@ footer img {
 }
 .contact-name {
   font-size: 30px;
-  font-weight: #000;
+  font-weight: 900;
   font-family: "Playfair Display", serif;
   font-style: italic;
   margin-top: 30px;
